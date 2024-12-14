@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="1280.0" style="-fx-background-color: #783114;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClubsController">
+   <children>
+      <Label layoutX="301.0" layoutY="84.0" prefHeight="90.0" prefWidth="587.0" text="Clubs Participating in UCL">
+         <font>
+            <Font name="Maiandra GD" size="48.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ManUnitedImage" fitHeight="135.0" fitWidth="155.0" layoutX="45.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Files/ManchesterUnited.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ManCityImage" fitHeight="229.0" fitWidth="167.0" layoutX="288.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Files/ManchesterCity.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ChelseaImage" fitHeight="184.0" fitWidth="225.0" layoutX="555.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Files/Chelsea.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="LiverPoolImage" fitHeight="135.0" fitWidth="155.0" layoutX="788.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Files/Liverpool.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ArsenalImage" fitHeight="135.0" fitWidth="155.0" layoutX="1043.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Files/Arsenal.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Manunited" layoutX="43.0" layoutY="488.0" mnemonicParsing="false" onAction="#loginManU" prefHeight="56.0" prefWidth="133.0" style="-fx-background-radius: 100;" text="ManUnited">
+         <font>
+            <Font name="Maiandra GD" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Mancity" layoutX="306.0" layoutY="488.0" mnemonicParsing="false" onAction="#loginManCity" prefHeight="56.0" prefWidth="149.0" style="-fx-background-radius: 100;" text="ManCity">
+         <font>
+            <Font name="Maiandra GD" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ChelSea" layoutX="553.0" layoutY="494.0" mnemonicParsing="false" onAction="#loginChelsea" prefHeight="56.0" prefWidth="131.0" style="-fx-background-radius: 100;" text="Chelsea">
+         <font>
+            <Font name="Maiandra GD" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Liverpool" layoutX="792.0" layoutY="493.0" mnemonicParsing="false" onAction="#loginLiverpool" prefHeight="56.0" prefWidth="149.0" style="-fx-background-radius: 100;" text="LiverPool">
+         <font>
+            <Font name="Maiandra GD" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ArsenalButton" layoutX="1064.0" layoutY="494.0" mnemonicParsing="false" onAction="#loginArsenal" prefHeight="56.0" prefWidth="143.0" style="-fx-background-radius: 100;" text="Arsenal">
+         <font>
+            <Font name="Maiandra GD" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
